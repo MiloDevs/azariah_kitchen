@@ -46,7 +46,7 @@ const Navbar = () => {
       } duration-300 ease-out transition-all z-40 justify-between fixed right-0 left-0 container mx-auto py-6 md:px-0 px-8`}
     >
       <Image
-        src={"/azariahlogo.jpg"}
+        src={"https://s6.imgcdn.dev/9ek9K.webp"}
         alt="AzariahLogo"
         height={50}
         width={50}
