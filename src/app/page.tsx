@@ -34,7 +34,7 @@ const foodImages = [
 
 export default function Home() {
   return (
-    <div className="bg-[#1A1A1A]">
+    <main id='main' role='main' className="bg-[#1A1A1A]">
       <Navbar />
 
       <div
@@ -158,6 +158,6 @@ export default function Home() {
           </ul>
         </div>
       </div>
-    </div>
+    </main>
   );
 }
