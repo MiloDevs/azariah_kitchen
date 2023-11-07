@@ -43,7 +43,7 @@ const Navbar = () => {
     <div
       className={`flex items-center top-0 ${
         show && "-top-20"
-      } duration-300 ease-out transition-all justify-between fixed right-0 left-0 container mx-auto py-6 md:px-0 px-8`}
+      } duration-300 ease-out transition-all z-40 justify-between fixed right-0 left-0 container mx-auto py-6 md:px-0 px-8`}
     >
       <Image
         src={"/azariahlogo.jpg"}
