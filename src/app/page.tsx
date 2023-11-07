@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Navbar from './components/Navbar'
 import Link from 'next/link';
 import Map from './components/Map';
-import type { Metadata } from 'next';
+
 
 
 const foodImages = [

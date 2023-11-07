@@ -43,7 +43,7 @@ const Navbar = () => {
     <div
       className={`flex items-center ${
         show ? "-top-20" : "top-0"
-      } duration-300 ease-out transition-all z-40 justify-between fixed right-0 left-0 container mx-auto py-6 md:px-0 px-8`}
+      } duration-300 ease-out transition-all z-40 justify-between fixed right-0 left-0 container mx-auto py-6 md:px-4 lg:px-0 px-8`}
     >
       <Image
         src={"https://s6.imgcdn.dev/9ek9K.webp"}
@@ -73,12 +73,12 @@ const Navbar = () => {
         <div
           className={`w-full h-1 bottom-full bg-white absolute ${
             showNav && "-rotate-45"
-          } origin-top-right transition-all ease-out duration-300`}
+          } origin-top-right transition-all rounded-full ease-out duration-300`}
         ></div>
         <div
           className={`absolute top-full h-1 bg-white ${
             showNav ? "rotate-45 w-full" : "w-4/6"
-          } origin-bottom-right transition-all ease-out duration-300`}
+          } origin-bottom-right transition-all rounded-full ease-out duration-300`}
         ></div>
       </div>
 
@@ -104,7 +104,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href={"/Recipes"}
+              href={"/recipes"}
               className={`${
                 showNav
                   ? "-translate-x-1/2 opacity-100 delay-300"
@@ -116,7 +116,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              href={"/About"}
+              href={"/about"}
               className={`${
                 showNav
                   ? "-translate-x-1/2 opacity-100 delay-500"
