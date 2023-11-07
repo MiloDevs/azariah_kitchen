@@ -9,14 +9,14 @@ export default function Home() {
       <Navbar />
 
       <div className="h-screen w-full bg-landing-bg bg-cover bg-center flex items-center justify-center">
-        <h1 className="text-8xl">azariah kitchen</h1>
+        <h1 className="text-4xl md:text-8xl">azariah kitchen</h1>
       </div>
 
-      <div className="h-[70vh] w-full flex flex-col mt-8 px-64 py-10">
+      <div className="h-[70vh] w-full flex flex-col  mt-8 px-12 md:px-64 py-10">
         <h1 className="text-center font-semibold px-5 text-3xl">About Us</h1>
-        <div className="flex mt-12 relative w-full flex-1">
-          <div className="h-full w-1/3 bg-neutral-500"></div>
-          <div className="absolute bottom-0 left-52 max-w-lg">
+        <div className="flex mt-12 md:flex-row flex-col relative w-full flex-1">
+          <div className="h-full w-full md:w-1/3 bg-neutral-500"></div>
+          <div className="md:absolute bottom-0 left-52 max-w-lg mt-4 md:mt-0">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
               veritatis tempore ratione! Lorem ipsum dolor sit amet consectetur
@@ -34,7 +34,7 @@ export default function Home() {
         <div></div>
       </div>
 
-      <div className="h-[70vh] w-full flex flex-col mt-8 px-64 py-10">
+      <div className="h-[70vh] w-full flex flex-col mt-8 px-12 md:px-64 py-10">
         <h1 className="text-center font-semibold px-5 text-3xl">
           Our Locations
         </h1>
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full flex flex-col mt-8 px-64 py-10">
+      <div className="w-full flex flex-col mt-8 px-12 md:px-64 py-10">
         <h1 className="text-center font-semibold px-5 text-3xl">Talk to us</h1>
         <div className="flex mt-12 relative w-full justify-center items-center flex-1">
           <form className="text-sm">
@@ -83,8 +83,8 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-black py-6 grid grid-cols-4 px-24 place-content-center mt-10 align-content-center">
-        <h1 className="font-semibold text-xl">Kitchen Azariah</h1>
+      <div className="bg-black py-6 grid grid-cols-2 md:grid-cols-4 px-12 md:px-24 mt-10">
+        <h1 className="font-semibold md:text-xl">Kitchen Azariah</h1>
         <div>
           <h1 className="font-semibold">Social Links</h1>
           <ul className="text-sm list-disc">

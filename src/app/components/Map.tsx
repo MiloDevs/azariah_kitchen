@@ -32,6 +32,6 @@ export default function Map({address}: {address: string}){
     },[]);
 
     return(
-        <div className="h-full w-1/2" ref={mapRef}></div>
+        <div className="h-full w-full md:w-1/2" ref={mapRef}></div>
     );
 }
