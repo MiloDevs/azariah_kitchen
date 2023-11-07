@@ -6,12 +6,12 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://kitchenazariah.com"),
   title: "Recipes",
   description:
-    "",
+    "Explore our catalog of recipes, from brunches to full course gourmet meal you won't miss a recipe to spice up your kitchen",
   category: "Food",
   twitter: {
     title: "Kitchen Azariah",
     description:
-      "Welcome to Kitchen Azariah, home of culinary delights, explore all varieties or recipes.",
+      "Explore our catalog of recipes, from brunches to full course gourmet meal you won't miss a recipe to spice up your kitchen",
   },
   openGraph: {
     images: "/azariahlogo.jpg",
