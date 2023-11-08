@@ -3,8 +3,6 @@ import Navbar from './components/Navbar'
 import Link from 'next/link';
 import Map from './components/Map';
 
-
-
 const foodImages = [
   {
     url: "https://images.pexels.com/photos/7441761/pexels-photo-7441761.jpeg?auto=compress&cs=tinysrgb&w=600",
@@ -39,9 +37,12 @@ export default function Home() {
 
       <div
         title="azariah"
-        className="h-screen w-full bg-landing-bg bg-cover bg-center flex items-center justify-center"
+        className="h-screen w-full flex-col bg-landing-bg bg-cover bg-center flex items-center justify-center"
       >
         <h1 className="text-4xl md:text-8xl">azariah kitchen</h1>
+        <button title='explore-recipe' className='bg-amber-500 px-3 py-2'>
+            Explore Our Recipes
+        </button>
       </div>
 
       <div className="w-full flex flex-col mt-8 px-12 md:px-24 lg:px-64 py-10">
@@ -75,13 +76,14 @@ export default function Home() {
           {foodImages.map((foodImage) => (
             <div
               key={foodImage.title}
-              className="break-inside mt-6 rounded-xl overflow-hidden"
+              className="break-inside mt-6"
             >
               <Image
                 src={foodImage.url}
                 height={300}
                 width={300}
                 alt={foodImage.title}
+                className='rounded-xl'
               />
             </div>
           ))}
