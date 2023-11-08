@@ -14,6 +14,10 @@ export default function Map({address}: {address: string}){
 
             const { Map } = await loader.importLibrary("maps");
 
+            //init marker
+            const {Marker} = await loader.importLibrary("marker") as google.maps.MarkerLibrary;
+
+
             const position = {
               lat: -1.09413,
               lng: 35.8558071,
@@ -26,6 +30,12 @@ export default function Map({address}: {address: string}){
             }
 
             const map = new Map(mapRef.current as HTMLDivElement, mapOptions);
+
+            //put up marker
+            const marker = new Marker({
+                map: map,
+                position: position,
+            })
         }
 
         initMap();

@@ -40,7 +40,7 @@ export default function Home() {
         className="h-screen w-full flex-col bg-landing-bg bg-cover bg-center flex items-center justify-center"
       >
         <h1 className="text-4xl md:text-8xl">azariah kitchen</h1>
-        <button title='explore-recipe' className='bg-amber-500 px-3 py-2'>
+        <button title='explore-recipe' className='bg-amber-500 px-3 py-2 mt-5'>
             Explore Our Recipes
         </button>
       </div>
